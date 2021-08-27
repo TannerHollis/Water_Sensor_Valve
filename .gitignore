@@ -43,3 +43,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+#Visual Studio Files
+*.pyproj
+*.sln
+/v16
