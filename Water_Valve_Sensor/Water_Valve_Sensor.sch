@@ -163,25 +163,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 2725 4300 2450
 $Comp
-L wickerlib:HEADER-MALE-10POS-TH-2x5-P0.1IN J3
-U 1 1 61470126
-P 3450 6550
-F 0 "J3" H 3450 6375 50  0000 C CNN
-F 1 "SENSITIVITY_SELECTOR" H 3450 6466 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3450 6500 50  0001 C CIN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 3400 6550 5   0001 C CNN
-F 4 "HEADER MALE 10POS TH 2x5 0.1IN" H 3450 6500 50  0001 C CIN "Description"
-F 5 "Amphenol" H 3450 6500 50  0001 C CIN "MF_Name"
-F 6 "67997-410HLF" H 3450 6500 50  0001 C CIN "MF_PN"
-F 7 "Digikey" H 3450 6500 50  0001 C CIN "S1_Name"
-F 8 "609-3243-ND" H 3450 6500 50  0001 C CIN "S1_PN"
-F 9 "500" H 3450 6500 50  0001 C CIN "XSize_mils"
-F 10 "200" H 3450 6500 50  0001 C CIN "YSize_mils"
-F 11 "th" H 3450 6500 50  0001 C CIN "Type"
-	1    3450 6550
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R7
 U 1 1 61473E54
 P 2975 6600
@@ -766,4 +747,41 @@ Wire Wire Line
 	4325 3975 4325 4075
 Wire Wire Line
 	6025 4150 5900 4150
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J3
+U 1 1 612D4D1E
+P 3400 6700
+F 0 "J3" H 3450 7225 50  0000 C CNN
+F 1 "SENSITIVITY_SELECTOR" H 3450 7150 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 3400 6700 50  0001 C CNN
+F 3 "~" H 3400 6700 50  0001 C CNN
+	1    3400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0101
+U 1 1 612D79F2
+P 4050 6275
+F 0 "#PWR0101" H 4050 6125 50  0001 C CNN
+F 1 "+12V" H 4065 6448 50  0000 C CNN
+F 2 "" H 4050 6275 50  0001 C CNN
+F 3 "" H 4050 6275 50  0001 C CNN
+	1    4050 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6275 4050 6375
+Wire Wire Line
+	4050 6375 3800 6375
+Wire Wire Line
+	3125 6500 3200 6500
+Wire Wire Line
+	3125 6375 3800 6375
+Wire Wire Line
+	3800 6375 3800 6500
+Wire Wire Line
+	3125 6375 3125 6500
+Wire Wire Line
+	3800 6500 3700 6500
+Connection ~ 3800 6375
 $EndSCHEMATC
