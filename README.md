@@ -18,6 +18,8 @@ Adjustments may be needed for more sensitivity or security. For more sensitivity
 ## Custom Setting Attachment
 This add-on is a customizable attachment that is configurable with either the use the included potentiometer or the solderable resistor footprint. With the included mosfet, an external controller can be attached and control the Water Sensor Valve using the connections with the use of the included external mosfet.
 
-- [ ] Simulate custom setting attachment
+- [X] Test and verify first revision
+- [X] Verify alarm and valve operation
+- [ ] Create custom setting attachment
 - [ ] Control device with custom setting attachment using MCU
 - [ ] Setup configurable custom setting attachement using potentiometer
