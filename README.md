@@ -20,6 +20,7 @@ This add-on is a customizable attachment that is configurable with either the us
 
 - [X] Test and verify first revision
 - [X] Verify alarm and valve operation
+- [ ] Design and print custom device housing
 - [ ] Create custom setting attachment
 - [ ] Control device with custom setting attachment using MCU
 - [ ] Setup configurable custom setting attachement using potentiometer
